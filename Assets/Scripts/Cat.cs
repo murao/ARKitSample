@@ -19,7 +19,7 @@ public class Cat : MonoBehaviour
             this.transform.rotation = Quaternion.Euler(0, _startEulerY, 0);
             this.transform.Translate(this.transform.forward * 0.001f, Space.World);
         }
-	}
+    }
 
     void OnCollisionEnter(Collision collision)
     {
